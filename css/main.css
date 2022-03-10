@@ -15,11 +15,19 @@ ul{
         height: 60px;
 }
 
+.col-100{
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 3px solid #efefef;
+    height:80px;
+    max-width: 100%;
+
+}
+
 main{
     margin: 0 auto;
     width: 100%;
     max-width: 980px;
-    position: relative;
 }
 
 .logo{
@@ -29,14 +37,16 @@ main{
 }
 
 .redes-sociais ul li {
-    margin-left: 10px;
+    margin-left: .5vw;
     display: inline-block;
     list-style: none;
 }
 
 .redes-sociais{
-    width: 24%;
-    float:left;
+    position: relative;
+    right: 5.0vw;
+    width: auto; 
+    float:right;
 }
 
 .header-2{
@@ -49,7 +59,7 @@ main{
 .menu ul li {
     display: inline-block;
     color: #8b8b8b;
-    margin-left: 20px;
+    margin-left: 1.77vw;
     margin-top: 10px;
 }
 
@@ -61,30 +71,31 @@ main{
 }
 
 .menu{
-    width: 70%;
+    width: 75%;
     float: left;
 }
 
-.busca{
-    width:30%;
+.busca input{
+    height: 36px;
+    width:auto;
     float: right;
-}
-
-.col-100{
-    width: 100%;
-    margin: 0 auto;
-    border-bottom: 3px solid #efefef;
-    height:80px;
-
+    position: relative;
+    top: 20px;
+    right: 3vw;
 }
 
 
-@media screen and (max-width: 890px){
-    .menu ul li{
-        display: flex;
-    }
+
+
+@media screen and (max-width: 740px){
     .menu a{
         font-size: 16px;
 
     }
+
+    .logo{
+        width:20%;
+    }
+
 }
+
