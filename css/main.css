@@ -59,8 +59,17 @@ main{
 .menu ul li {
     display: inline-block;
     color: #8b8b8b;
-    margin-left: 1.77vw;
+    margin-left: 1.0vw;
     margin-top: 10px;
+    height: 50px;
+}
+
+.menu ul li:hover{
+    border-bottom: 2px solid #00bac6;
+}
+}
+.menu a:hover{
+    color: #00bac6;
 }
 
 .menu ul li a {
@@ -77,23 +86,27 @@ main{
 
 .busca input{
     background-image: url('../img/lupa.png');
-    background-repeat: no-repeat;
-    background-position: 98%;    
+    background-repeat: no-repeat;    
     height: 36px;
     width:auto;
     float: right;
     position: relative;
     top: 20px;
     right: 3vw;
+    background-position: 98%;
+    border: 1px solid #d6d6d6;
 }
 
 
 
 
-@media screen and (max-width: 740px){
+@media screen and (max-width: 780px){
     .menu a{
         font-size: 16px;
+    }
 
+    .menu ul li{
+        display: flex;
     }
 
     .logo{
