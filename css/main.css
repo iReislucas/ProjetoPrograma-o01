@@ -76,6 +76,9 @@ main{
 }
 
 .busca input{
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: 98%;    
     height: 36px;
     width:auto;
     float: right;
